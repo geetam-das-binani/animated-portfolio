@@ -23,13 +23,19 @@ const Contact = () => {
 	const [error, setError] = useState(false);
 	const [success, setSuccess] = useState(false);
 
+	console.log(import.meta.env.VITE_SERVICE_ID);
 	const sendEmail = (e) => {
 		e.preventDefault();
 
 		emailjs
-			.sendForm("service_f1s2vnq", "template_42y3rh4", formRef.current, {
-				publicKey: "vK7AKGwtAhp0X4W4w",
-			})
+			.sendForm(
+				import.meta.env.VITE_SERVICE_ID,
+				import.meta.env.VITE_TEMPLATE_ID,
+				formRef.current,
+				{
+					publicKey: import.meta.env.VITE_PUBLIC_KEY,
+				}
+			)
 			.then(
 				() => {
 					setSuccess(true);
