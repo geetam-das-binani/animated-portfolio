@@ -23,7 +23,7 @@ const ItemVariants = {
 		opacity: 0,
 	},
 };
-const items = ["HomePage", "Services", "Portfolio", "Contact", "About"];
+const items = ["HomePage", "Services", "Portfolio", "Contact"];
 const Links = () => {
 	return (
 		<motion.div variants={variants} className="links">
