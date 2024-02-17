@@ -23,7 +23,6 @@ const Contact = () => {
 	const [error, setError] = useState(false);
 	const [success, setSuccess] = useState(false);
 
-	console.log(import.meta.env.VITE_SERVICE_ID);
 	const sendEmail = (e) => {
 		e.preventDefault();
 
