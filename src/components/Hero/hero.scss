@@ -80,10 +80,11 @@
 		}
 
 		img {
-			width: 70%;
+			width: 80%;
 			height: 80%;
-			object-fit: contain;
-			border-radius: 50%;
+			object-fit: cover;
+			border-radius: 50px;
+			filter: saturate(-5);
 			@include mobile {
 				width: 50%;
 				height: 100%;
