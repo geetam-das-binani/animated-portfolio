@@ -1,33 +1,36 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-
+import ecommerce from '../../assets/ecommerce.png'
+import learndo from '../../assets/learndo.png' 
+import chat from '../../assets/chat.png'
+import admin from '../../assets/admin.png'
 const items = [
 	{
 		id: 1,
 		title: "Mern Ecommerce App",
-		img: "../../../public/ecommerce.png",
+		img: ecommerce,
 		desc: "A user-friendly ecommerce like interface . It has features such as product filtering,  product listings, product details display, shopping cart, user authentication, and Stripe payment functionality. With a focus on responsiveness, users can seamlessly browse, purchase, and securely checkout, ensuring a smooth and convenient experience across devices",
 		link:"https://becoomerce.onrender.com"
 	},
 	{
 		id: 2,
 		title: "Mern Chat App",
-		img: "../../../public/chat.png",
+		img: chat,
 		desc: "A user-friendly chat application that includes features such as single chat, group chat, user authentication, online last seen status and  real-time messaging with the help of socket.io which ensures instantaneous communication between users, enhancing the interactive nature of the platform.",
 		link:"https://wechat-0ytb.onrender.com"
 	},
 	{
 		id: 3,
 		title: "React Admin Dashboard Design",
-		img: "../../../public/admin.png",
+		img: admin,
 		desc: "A React.js Admin Dashboard With intuitive navigation, it empowers administrators to manage users, orders, and products effortlessly. Dive into interactive charts for revenue insights, toggle dark mode for enhanced usability, and witness seamless data visualization—all without backend dependencies.",
 		link:"https://admindashboard-y7kl.onrender.com"
 	},
 	{
 		id: 4,
 		title: "React Learndo App",
-		img: "../../../public/learndo.png",
+		img: learndo,
 		desc: 
 		"Leardo is your ultimate language learning companion to master Japanese, Hindi, Spanish, and French. With its intuitive interface and comprehensive resources, you can explore each language through 8 sequential pages, pairing English words with their translations. Interactive quizzes provide instant feedback, allowing you to gauge your progress and focus on areas needing improvement.",
 		link:"https://learndo.vercel.app/"
