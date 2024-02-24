@@ -19,9 +19,10 @@ const items = [
 	},
 	{
 		id: 3,
-		title: "React Admin Dashboard",
-		img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+		title: "React Admin Dashboard Design",
+		img: "../../../public/admin.png",
+		desc: "A React.js Admin Dashboard With intuitive navigation, it empowers administrators to manage users, orders, and products effortlessly. Dive into interactive charts for revenue insights, toggle dark mode for enhanced usability, and witness seamless data visualization—all without backend dependencies.",
+		link:"https://admindashboard-y7kl.onrender.com"
 	},
 	{
 		id: 4,

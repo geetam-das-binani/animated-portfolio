@@ -101,6 +101,7 @@
 		max-width: 1366px;
 		margin: auto;
 		width: 80%;
+		gap: 5px;
 
 		@include mobile {
 			flex-direction: column;
@@ -113,6 +114,10 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
+
+			h2{
+				margin-bottom: 1rem;
+			}
 
 			@include mobile {
 				border: none;
