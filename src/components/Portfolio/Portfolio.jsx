@@ -2,9 +2,9 @@ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import ecommerce from '../../assets/ecommerce.png'
-import learndo from '../../assets/learndo.png' 
 import chat from '../../assets/chat.png'
 import admin from '../../assets/admin.png'
+import hotel from '../../assets/hotel.png' 
 const items = [
 	{
 		id: 1,
@@ -29,11 +29,11 @@ const items = [
 	},
 	{
 		id: 4,
-		title: "React Learndo App",
-		img: learndo,
+		title: "Mern Hotel Booking App",
+		img: hotel,
 		desc: 
-		"Leardo is your ultimate language learning companion to master Japanese, Hindi, Spanish, and French. With its intuitive interface and comprehensive resources, you can explore each language through 8 sequential pages, pairing English words with their translations. Interactive quizzes provide instant feedback, allowing you to gauge your progress and focus on areas needing improvement.",
-		link:"https://learndo.vercel.app/"
+		"A user-friendly hotel app like interface.It includes essential features such as advanced accommodation filtering, detailed room listings, comprehensive room details display, an intuitive booking cart, secure user authentication, and seamless payment processing via Stripe. Designed with responsiveness in mind, users can seamlessly browse, book, and securely complete their reservations, ensuring a smooth and convenient experience across all devices. Welcome to the future of hassle-free hotel bookings!",
+		link:"https://mern-booking-app-fji3.onrender.com"
 	},
 ];
 
