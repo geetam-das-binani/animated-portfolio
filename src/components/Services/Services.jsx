@@ -22,8 +22,6 @@ const variants = {
 const Services = () => {
   const ref = useRef();
 
-
-
   return (
     <motion.div
       className="services"
@@ -60,7 +58,7 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Frontend</h2>
-		  
+
           <p>
             Our frontend service focuses on creating visually appealing and
             user-friendly interfaces. We specialize in crafting responsive
@@ -68,7 +66,6 @@ const Services = () => {
             Leveraging modern frontend technologies, we ensure your website or
             application stands out with its aesthetic appeal and functionality.
           </p>
-         
         </motion.div>
         <motion.div
           className="box"
@@ -83,22 +80,20 @@ const Services = () => {
             implementing server logic to ensure optimal performance and
             security.
           </p>
-          
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Mern Stack</h2>
+          <h2>Full Stack</h2>
           <p>
-            Our MERN stack service encompasses end-to-end development using
-            MongoDB, Express.js, React.js, and Node.js. We specialize in
-            building full-stack applications with seamless integration of
-            frontend and backend components. Leveraging the power of MERN stack,
-            we deliver highly dynamic and interactive web applications that
-            cater to modern user demands and business requirements.
+            We build robust full-stack applications using the power of MongoDB,
+            Express.js, React.js, Node.js, and Next.js. Our expertise lies in
+            crafting scalable solutions that seamlessly blend frontend
+            aesthetics with backend performance. Whether it’s building dynamic
+            dashboards, real-time applications, or RESTful APIs, we deliver
+            end-to-end solutions tailored to meet modern business needs.
           </p>
-          
         </motion.div>
       </motion.div>
     </motion.div>
